@@ -124,8 +124,6 @@ pipeline {
                 }
             }
         }
-    }
-
 
 /*       
         stage('Approval') {
