@@ -9,7 +9,7 @@ pipeline {
 */
     stages {
 
-        stage ('Docker') {
+        stage ('AWS CLI Test') {
             agent {
                 docker {
                     image 'amazon/aws-cli:latest'
